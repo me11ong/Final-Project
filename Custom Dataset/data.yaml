@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Water Tank', 'lift', 'worker']
+
+# roboflow:
+#  workspace: me11hong
+#  project: darkdata_water_tank_detection
+#  version: 1
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/me11hong/darkdata_water_tank_detection/dataset/1
